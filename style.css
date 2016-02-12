@@ -1,0 +1,96 @@
+
+#Purpose {
+    background-color: #0473F8;
+	padding-top: 70px;
+	padding-bottom: 10px;
+    border-bottom-width: 1px;
+   	border-bottom-style: solid;
+   	border-bottom-color: rgba(255, 255, 255, 0.2);
+}
+
+}
+.associates {
+	clear: both;
+	border-radius: 50%;
+	padding-bottom: 10px;
+	color: white;
+	
+}
+
+#bio {
+    
+    color: black;
+    height:10%;
+    margin-left:0px;
+    font-size: 15;
+	transition-delay: 5s;
+	transition: opacity 1s ease-in-out;
+}
+a:hover + #bio {
+    opacity: 1;
+
+}​
+
+h2 {
+	color: white;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#Section2 {
+	clear: both;
+	background-color: #912319 ;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#Section3 {
+	clear: both;
+	background-color: #BBB;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#Associates {
+	clear: both;
+	padding-top: 50px;
+	border-bottom: 50px;
+	padding-left: 20%;
+	padding-right: 20%;
+
+}
+#Contact {
+	clear: both;
+	background-color: #F9A3BC;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#Footer {
+	background-color: black;
+	color: white;
+	padding-right: 25px;
+}
+ul
+{
+    list-style-type: none;
+    padding: 0;
+}
+a:link {
+    text-decoration: none;
+   	color: black;
+}
+a {
+	color: black;
+}
+#left {
+	float: left;
+	width: 50%;
+	list-style-position: center;
+}
+#right {
+	float: right;
+	width: 50%;
+	list-style-position: center;
+}
+
+#People {
+	clear: both;
+}
