@@ -17,19 +17,6 @@
 	
 }
 
-#bio {
-    
-    color: black;
-    height:10%;
-    margin-left:0px;
-    font-size: 15;
-	transition-delay: 5s;
-	transition: opacity 1s ease-in-out;
-}
-a:hover + #bio {
-    opacity: 1;
-
-}​
 
 h2 {
 	color: white;
@@ -37,21 +24,21 @@ h2 {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-#Section2 {
+#WhatWeDo {
 	clear: both;
-	background-color: #912319 ;
+	background-color: #F44336;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
-#Section3 {
+#Projects {
 	clear: both;
-	background-color: #BBB;
+	background-color: #90A4AE;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
 #Associates {
-	background-image: url(images/Background_blue.png);
 	clear: both;
+	background-color: #E3F2FD;
 	padding-top: 50px;
 	border-bottom: 50px;
 	padding-left: 20%;
@@ -60,13 +47,12 @@ h2 {
 }
 #Contact {
 	clear: both;
-	background-color: #F9A3BC;
+	background-color: #EF9A9A;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
 #Footer {
-	background-color: black;
-	color: white;
+	color: black;
 	padding-right: 25px;
 }
 ul
