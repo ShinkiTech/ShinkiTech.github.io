@@ -17,13 +17,27 @@
 	
 }
 
+#bio {
+    
+    color: black;
+    height:10%;
+    margin-left:0px;
+    font-size: 15;
+	transition-delay: 5s;
+	transition: opacity 1s ease-in-out;
+}
+a:hover + #bio {
+    opacity: 1;
+
+}​
 
 h2 {
-	color: white;
+	color: black;
 	text-align: center;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+
 #WhatWeDo {
 	clear: both;
 	background-color: #F44336;
@@ -47,7 +61,7 @@ h2 {
 }
 #Contact {
 	clear: both;
-	background-color: #EF9A9A;
+	background-color: #F06292;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
