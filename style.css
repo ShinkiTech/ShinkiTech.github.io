@@ -1,7 +1,12 @@
 
+.navbar {
+background-color: #212121;
+
+}
 #Purpose {
-    background-color: #2196F3;
-	padding-top: 70px;
+    background-color: #F50057;
+    color: black;
+    padding-top: 70px;
 	padding-bottom: 10px;
     border-bottom-width: 1px;
    	border-bottom-style: solid;
@@ -38,12 +43,6 @@ h2 {
 	margin-bottom: 20px;
 }
 
-#WhatWeDo {
-	clear: both;
-	background-color: #F44336;
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
 #Projects {
 	clear: both;
 	background-color: #90A4AE;
@@ -52,7 +51,7 @@ h2 {
 }
 #Associates {
 	clear: both;
-	background-color: #E3F2FD;
+	background-color: #BDBDBD;
 	padding-top: 50px;
 	border-bottom: 50px;
 	padding-left: 20%;
@@ -61,7 +60,8 @@ h2 {
 }
 #Contact {
 	clear: both;
-	background-color: #F06292;
+	color: white;
+	background-color: #212121;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
