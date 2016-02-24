@@ -1,10 +1,7 @@
 
-body{
-	overflow-x: hidden;
-}
-
 .navbar {
 background-color: #212121;
+
 }
 #Purpose {
     background-color: #F50057;
@@ -26,6 +23,7 @@ background-color: #212121;
 }
 
 #bio {
+    
     color: black;
     height:10%;
     margin-left:0px;
@@ -50,7 +48,6 @@ h2 {
 	background-color: #90A4AE;
 	padding-top: 50px;
 	padding-bottom: 50px;
-
 }
 #Associates {
 	clear: both;
@@ -59,6 +56,7 @@ h2 {
 	border-bottom: 50px;
 	padding-left: 20%;
 	padding-right: 20%;
+
 }
 #Contact {
 	clear: both;
@@ -66,14 +64,10 @@ h2 {
 	background-color: #212121;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	width: 100%;
-
 }
 #Footer {
 	color: black;
 	padding-right: 25px;
-	width: 100%;
-
 }
 ul
 {
