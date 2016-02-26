@@ -1,14 +1,14 @@
 
 .navbar {
 background-color: #212121;
+width: 100%;
 
 }
 #Purpose {
     background-color: #F50057;
     color: black;
     padding-top: 70px;
-	padding-bottom: 10px;
-    border-bottom-width: 1px;
+    width: 100%;
    	border-bottom-style: solid;
    	border-bottom-color: rgba(255, 255, 255, 0.2);
 }
