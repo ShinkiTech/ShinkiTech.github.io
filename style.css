@@ -3,13 +3,18 @@ body{
 	overflow-x: hidden;
 }
 
-.navbar {
-background-color: #212121;
+.navbar-custom {
+	background-color: #212121;
 }
+
+.navbar-text {
+	color: white;
+}
+
 #Purpose {
     background-color: #F50057;
     color: black;
-    padding-top: 70px;
+    padding-top: 65px;
     width: 100%;
    	border-bottom-style: solid;
    	border-bottom-color: rgba(255, 255, 255, 0.2);
