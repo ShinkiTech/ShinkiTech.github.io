@@ -27,7 +27,7 @@ function myHTMLInclude() {
 
 })();
 
-$(document).ready(function(){
+function(){
   // Instagram-like sticky header
   function stickyTitles(stickies) {
     this.load = function() {
@@ -72,4 +72,3 @@ $(document).ready(function(){
   $(window).on("scroll", function() {
     newStickies.scroll();
   });
-});
