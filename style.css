@@ -1,5 +1,7 @@
 
+
 body{
+	font-family: 'Noto Sans', sans-serif;
 	overflow-x: hidden;
 }
 .navbar {
@@ -7,9 +9,10 @@ body{
     -webkit-box-shadow: 0 8px 6px -6px #999;
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px #999;
+    color: #ff4081;
 }
 .navbar-custom {
-	background-color: #212121;
+	background-color: #3f51b5;
 }
 
 #Purpose {
@@ -116,8 +119,8 @@ a {
 }
 
 .section-one {
-	background-color: #F50057;
     padding-top: 60px;
+    overflow: hidden;
     width: 100%;
 }
 
@@ -131,4 +134,8 @@ a {
 
 strong {
 	color: #ff80ab;
+}
+
+.navbar-default .navbar-nav li a {
+	color: #ff4081;
 }
