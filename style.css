@@ -114,3 +114,21 @@ a {
 #People {
 	clear: both;
 }
+
+.section-one {
+	background-color: #F50057;
+    padding-top: 60px;
+    width: 100%;
+}
+
+.staff-detail {
+	padding-top: 30px;
+}
+
+.staff-detail li {
+	padding-top: 10px;
+}
+
+strong {
+	color: #ff80ab;
+}
