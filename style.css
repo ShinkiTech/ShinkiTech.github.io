@@ -12,7 +12,7 @@ body{
     color: #ff4081;
 }
 .navbar-custom {
-	background-color: #3f51b5;
+	background-color: #303f9f;
 }
 
 #Purpose {
@@ -140,23 +140,23 @@ strong {
 	color: #ff4081;
 }
 
-
-
-
-
+.purpose {
+	top: 60px;
+}
 
 .followMeBar {
-  border-bottom: solid 1px #111;
-  border-top: solid 1px #444;
-  padding: 1%;
-  position: relative;
-  z-index: 1;
+	color: #ff4081;
+  	background: #3f51b5;
+  	border-bottom: solid 1px #111;
+  	border-top: solid 1px #444;
+  	padding: 1%;
+  	position: relative;
+  	z-index: 1;
 }
 .followMeBar.fixed {
   position: fixed;
-  top: 0;
-  width: 98%;
-  z-index: 0;
+  top: 60px;
+  width: 100%;
 }
 .followMeBar.fixed.absolute {
   position: absolute;

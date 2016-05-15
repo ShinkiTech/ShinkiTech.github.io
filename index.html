@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
 	<div w3-include-html="header.html"></div> 
 	<script src="w3-include-HTML.js"></script>
 </head>
 <body>
 	<div w3-include-html="navbar.html"></div> 
 	<script src="w3-include-HTML.js"></script>
-		
+
+	<div class="purpose followMeBar"><h1 >Our Purpose</h1></div>	
 	<div id="Purpose" >
 		<div class="row">
 			<div class="col-md-1"></div>
-			<div class="followMeBar col-md-3">
-				<h1 >Our Purpose</h1>
-			</div>
+			
 		</div>
 		<div class="row">
 			<div class="col-md-1"></div>
@@ -26,7 +28,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-6"></div>
-			<div style="text-align: right;" class="followMeBar col-md-3">
+			<div style="text-align: right;" class="col-md-3">
 				<h1>What We Do</h1>
 			</div>
 		</div>
@@ -41,11 +43,9 @@
 			</div>
 		</div>
 	</div>
+	<div class="followMeBar col-md-12"><h1>Projects</h1></div>
 	<div id="Projects">
-		<div class="row">
-			<div class="col-md-1"></div>
-			<div class="followMeBar col-md-3"><h1>Projects</h1></div>
-		</div>
+		
 		<div class="row">
 			<div class="col-md-0"></div>
 			<a href="#"><img src="images/Pebble.jpg"></a>
@@ -59,8 +59,8 @@
 		
 		</div>
 	</div>
+	<div class="followMeBar"><h2>Associates</h2></div>
 	<div id="Associates">
-		<div class="followMeBar"><h2><center>Associates</center></h2></div>
 		<ul>
 			<div class="row">
 				<div class="col-md-6">
@@ -130,12 +130,11 @@
 			</div>
 		</ul><br>			
 	</div>
+	<div class="followMeBar"><h1>Contact Us</h1></div>
 	<div id="Contact">
 		<div class="row">
 			<div class="col-md-2"></div>
-			<div class="followMeBar col-md-5">
-				<h1>Contact Us</h1>
-			</div>
+			
 		</div>
 		<div class="row">
 		<div class="col-md-5"></div>
@@ -149,5 +148,9 @@
 	<div style='text-align:right' id="Footer">
 		<P> &copy Copyright 2016 </p>
 	</div>
+	
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+	<script src="index.js"></script>
+
 </body>
 </html>
