@@ -139,3 +139,25 @@ strong {
 .navbar-default .navbar-nav li a {
 	color: #ff4081;
 }
+
+
+
+
+
+
+.followMeBar {
+  border-bottom: solid 1px #111;
+  border-top: solid 1px #444;
+  padding: 1%;
+  position: relative;
+  z-index: 1;
+}
+.followMeBar.fixed {
+  position: fixed;
+  top: 0;
+  width: 98%;
+  z-index: 0;
+}
+.followMeBar.fixed.absolute {
+  position: absolute;
+}
