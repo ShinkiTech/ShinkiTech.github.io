@@ -5,7 +5,7 @@ body{
 	overflow-x: hidden;
 }
 .navbar {
-	height: 100px;
+	height: 60px;
     -webkit-box-shadow: 0 8px 6px -6px #999;
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px #999;
@@ -16,9 +16,8 @@ body{
 }
 
 #Purpose {
-    background-color: #F50057;
     color: black;
-    padding-top: 100px;
+    padding-top: 75px;
     width: 100%;
    	border-bottom-style: solid;
    	border-bottom-color: rgba(255, 255, 255, 0.2);
@@ -70,7 +69,6 @@ h2 {
 
 #Associates {
 	clear: both;
-	background-color: #BDBDBD;
 	padding-top: 50px;
 	border-bottom: 50px;
 	padding-left: 20%;
@@ -78,8 +76,6 @@ h2 {
 }
 #Contact {
 	clear: both;
-	color: white;
-	background-color: #212121;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	width: 100%;
@@ -102,16 +98,6 @@ a:link {
 }
 a {
 	color: black;
-}
-#left {
-	float: left;
-	width: 50%;
-	list-style-position: center;
-}
-#right {
-	float: right;
-	width: 50%;
-	list-style-position: center;
 }
 
 #People {
@@ -141,10 +127,11 @@ strong {
 }
 
 .purpose {
-	top: 100px;
+	top: 60px;
 }
 
 .followMeBar {
+	text-align: center;
 	color: #ff4081;
   	background: #3f51b5;
   	border-bottom: solid 1px #111;
@@ -154,10 +141,20 @@ strong {
   	z-index: 1;
 }
 .followMeBar.fixed {
+	text-align: center;
   position: fixed;
-  top: 100px;
+  top: 60px;
   width: 100%;
 }
 .followMeBar.fixed.absolute {
   position: absolute;
+  text-align: center;
+}
+
+h1 {
+	color: #3f51b5;
+}
+
+.mission {
+	padding-top: 30px;
 }
