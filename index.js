@@ -16,7 +16,7 @@ $(document).ready(function(){
             prevSticky = stickies.eq(i-1),
             pos = $.data(thisSticky[0], 'pos');
 
-        if (pos <= $(window).scrollTop() +60) {
+        if (pos <= $(window).scrollTop() + 100) {
           
           thisSticky.addClass("fixed");
 

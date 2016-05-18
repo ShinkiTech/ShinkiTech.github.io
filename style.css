@@ -5,7 +5,7 @@ body{
 	overflow-x: hidden;
 }
 .navbar {
-	height: 60px;
+	height: 100px;
     -webkit-box-shadow: 0 8px 6px -6px #999;
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px #999;
@@ -18,7 +18,7 @@ body{
 #Purpose {
     background-color: #F50057;
     color: black;
-    padding-top: 60px;
+    padding-top: 100px;
     width: 100%;
    	border-bottom-style: solid;
    	border-bottom-color: rgba(255, 255, 255, 0.2);
@@ -141,7 +141,7 @@ strong {
 }
 
 .purpose {
-	top: 60px;
+	top: 100px;
 }
 
 .followMeBar {
@@ -155,7 +155,7 @@ strong {
 }
 .followMeBar.fixed {
   position: fixed;
-  top: 60px;
+  top: 100px;
   width: 100%;
 }
 .followMeBar.fixed.absolute {
