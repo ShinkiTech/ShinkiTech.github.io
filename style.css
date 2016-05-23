@@ -15,6 +15,10 @@ body{
 	background-color: #303f9f;
 }
 
+.navbar-nav {
+	float: right;
+}
+
 #Purpose {
     color: black;
     padding-top: 75px;
@@ -167,4 +171,8 @@ h1 {
   	border-top: solid 1px #444;
   	padding: 1%;
   	position: relative;
+}
+
+.title {
+	color: #ff80ab;
 }

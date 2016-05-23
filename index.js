@@ -43,4 +43,12 @@ $(document).ready(function(){
   $(window).on("scroll", function() {
     newStickies.scroll();
   });
+
+  $('a[href="#Associates"]').click(function(){
+   $("#Associates").css("padding-top", "200px");
+   });
+
+  $('a[href="#Projects"]').click(function(){
+   $("#Projects").css("padding-top", "200px");
+   });
 });
