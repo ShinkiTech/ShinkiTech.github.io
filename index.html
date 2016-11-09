@@ -1,148 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-	<link rel="stylesheet" type="text/css" href="style.css"/>
 	<link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
-	<div w3-include-html="header.html"></div> 
-	<script src="w3-include-HTML.js"></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
+  	<!-- Compiled and minified JavaScript -->
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="index.js" type="text/javascript"></script>
+
 </head>
 <body>
-	<div w3-include-html="navbar.html"></div> 
-	<script src="w3-include-HTML.js"></script>
-
-
-	<div class="purpose followMeBar"><h2 >Our Purpose</h2></div>	
-	<div id="Purpose" >
-		<div class="row">
-			<div class="col-md-12">
-				<center><h4>We inspire innovation in our friends
-				by providing an environment to accomplish 
-				projects related to their field of study.
-				</h4></center>
-			</div>
+	<header>
+		<div class="navbar row">
+			<section class="col s6">
+				<h3 class="title">Shinki Technology</h3>
+			</section>
+			<section class="col s6">
+				<ul>
+					<li><a href="javascript:;" id="#section-1"><h5 class="nav-links"><i class="material-icons">work</i>Purpose</h5></a></li>
+					<li><a href="javascript:;" id="#section-2"><h5 class="nav-links"><i class="material-icons">work</i> What We Do</h5></a></li>
+					<li><a href="javascript:;" id="#section-3"><h5 class="nav-links"><i class="material-icons">folder</i> Projects</h5></a></li>
+					<li><a><h5 class="nav-links"><i class="material-icons md-24">people</i> Associates</h5></a></li>
+				</ul>
+			</section>
 		</div>
-		<div class="row">
-			<div class="col-md-1"></div>
-			<div class="headers col-md-3">
-				<h1>What We Do</h1>
-			</div>
-			<div class="topspacin col-md-7">
-				<p>Our mission is to build a friendly and innovative environments for those looking 
-				to improve their technical skills. Our firm is driven by our empowered 
-				associates, but ultimately by the product resulting from our creative projects. 
-				Our vision is that we will foster a culture which prioritizes the employee, 
-				emphasizes teamwork, and promotes innovation both in or associates and their friends.</p>
-			</div>
-		</div>
+	</header>
+	<div class="section-1">
+		<section class="section container">
+			<h1>Purpose</h1>
+				<h5>We inspire innovation in our friends
+					by providing an environment to accomplish
+					projects related to their field of study.
+				</h5>
+				<a href="javascript:;" id="#section-2"><i class="arrow material-icons md-100">keyboard_arrow_down</i></a>
+		</section>
 	</div>
-	<div class="followMeBar col-md-12"><h2>Projects</h2></div>
-	<div id="Projects">
-		
-		<div class="row">
-			<div class="col-md-0"></div>
-			<a href="#"><img src="images/Pebble.jpg"></a>
-			<a href="#"><img src="images/Droid.jpg"></a>
-			<a href="#"><img src="images/CAD.jpg"></a>
-			<a href="#"><img src="images/Helicopter.jpg"></a>
-			<a href="#"><img src="images/Droid2.jpg"></a>
-			<a href="#"><img src="images/Droid3.jpg"></a>
-		</div>
-		<div class="row">
-		
-		</div>
+	<div id="section-2" class="section-2">
+		<section class="section container">
+			<h1>What We Do</h1>
+				<h5>Our mission is to build a friendly and innovative environments for those looking
+				to improve their technical skills. Our firm is driven by our empowered
+				associates, but ultimately by the product resulting from our creative projects.
+				Our vision is that we will foster a culture which prioritizes the employee,
+				emphasizes teamwork, and promotes innovation both in or associates and their friends.
+				</h5>
+				<a href="javascript:;" id="#section-3"><i class="arrow material-icons md-100">keyboard_arrow_down</i></a>
+		</section>
 	</div>
-	<div class="followMeBar"><h2>Associates</h2></div>
-	<div id="Associates">
-		<ul>
-			<div class="row">
-				<div class="col-md-6">
-					<li><center><a href="heathInfo.html"><img class="img-circle box-shadow" src="images\Heath.jpg">
-						<h2>Heath Palmer<br>Founder/Hardware Lead</h2></a>
-						<div id="bio">
-							<h4>Electrical Engineering <br> University of Cincinnati</h4>
-						</div>
-					</center></li>
-				</div>
-				<div class="col-md-6">
-					<li><center><a href="ericInfo.html"><img class="img-circle" src="images\Eric.jpg">
-						<h2>Eric Groh<br>Software Lead</h2></a>
-						<div id="bio">
-							<h4>Computer Science <br> University of Cincinnati</h4>
-						</div>
-					</center></li>
-				</div>
-			</div>
-		</ul><br>
-		<ul>
-			<div class="row">
-				<div class="col-md-6">
-				<li><center><a href="#"><img class="img-circle" src="images\Prajesh.jpg">
-					<h2>Prajesh Rajkumar <br> Software Developer</h2></a>
-						<div id="bio">
-							<h4>Computer Science and Engineering <br> Ohio State University</h4>
-						</div>			
-					</center></li>
-				</div>
-				<div class="col-md-6">
-					<li><center><a href="#"><img class="img-circle" src="images\Aaron.jpg">
-						<h2>Aaron Sens <br> Web Developer</h2></a>
-						<div id="bio">
-							<h4>Computer Engineering <br> University of Cincinnati</h4>
-						</div>	
-					</center></li>
-				</div>
-			</div>
-		</ul><br>
-		<ul>
-			<div class="row">
-				<div class="col-md-6">
-				<li><center><a href="devinInfo.html"><img class="img-circle" src="images\Devin.jpg">
-					<h2>Devin Burnside <br> Some Position</h2></a>
-						<div id="bio">
-							<h4>Computer Engineering/MBA <br> University of Cincinnati</h4>
-						</div>			
-					</center></li>
-				</div>
-				<div class="col-md-6">
-					<li><center><a href="willinfo.html"><img class="img-circle" src="images\Will.jpg">
-						<h2>Will Grawe <br> Hardware Designer</h2></a>
-						<div id="bio">
-							<h4>Electrical Engineering <br> Ohio State University</h4>
-						</div>	
-					</center></li>
-				</div>
-				<div class="col-md-12">
-				<li><center><a href="#"><img class="img-circle" src="images\Jake.jpg">
-					<h2>Jacob MacFarland <br> VR Software Lead</h2></a>
-						<div id="bio">
-							<h4>Software Engineering <br> Miami University</h4>
-						</div>			
-					</center></li>
-				</div>
-			</div>
-		</ul><br>			
+	<div id="section-3" class="section-3">
+		<section class="section container">
+			<h1>Projects</h1>
+				<h5>Coming Soon.</h5>
+		</section>
 	</div>
-	<div class="contact"><h2>Contact Us</h2></div>
-	<div id="Contact">
-		<div class="row">
-			<div class="col-md-2"></div>
-			
-		</div>
-		<div class="row">
-			<div class="col-md-1"></div>
-			<div class="col-md-11">
-				<h5>Please feel free to contact us at: shinkitechnologies@gmail.com</h5>
-				<h5>Heath Palmer: palmerha@mail.uc.edu | (614) 917-7850</h5>
-			</div>
-		</div>
+	<div style='text-align:right' id="Footer">
+		<P> &copy Copyright 2016 </p>
 	</div>
-
-	<div w3-include-html="footer.html"></div> 
-	<script src="w3-include-HTML.js"></script>
-	
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
-	<script src="index.js"></script>
-
 </body>
 </html>

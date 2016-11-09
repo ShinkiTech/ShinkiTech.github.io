@@ -1,54 +1,19 @@
 $(document).ready(function(){
-  // Instagram-like sticky header
-  function stickyTitles(stickies) {
-    this.load = function() {
-      stickies.each(function(){
-        var thisSticky = $(this).wrap('<div class="followWrap" />');
-        thisSticky.parent().height(thisSticky.outerHeight());
-        $.data(thisSticky[0], 'pos', thisSticky.offset().top);
-      });
-    }
-
-    this.scroll = function() {
-      stickies.each(function(i){
-        var thisSticky = $(this),
-            nextSticky = stickies.eq(i+1),
-            prevSticky = stickies.eq(i-1),
-            pos = $.data(thisSticky[0], 'pos');
-
-        if (pos <= $(window).scrollTop() + 100) {
-          
-          thisSticky.addClass("fixed");
-
-          if (nextSticky.length > 0 && thisSticky.offset().top >= $.data(nextSticky[0], 'pos') - thisSticky.outerHeight()) {
-            thisSticky.addClass("absolute").css("top", $.data(nextSticky[0], 'pos') - thisSticky.outerHeight());
-          }
-
-        } else {
-          
-          thisSticky.removeClass("fixed");
-          
-          if (prevSticky.length > 0 && $(window).scrollTop() <= $.data(thisSticky[0], 'pos')  - prevSticky.outerHeight()) {
-            prevSticky.removeClass("absolute").removeAttr("style");
-          }       
+    $('a h5[class="nav-links"]').click(function() {
+        link = this.parentElement.getAttribute('id');
+        if (link == '#section-1') {
+          $('html,body').animate({
+              scrollTop: 0}, 'slow');
         }
-      });     
-    }
-  }
-  
-  var newStickies = new stickyTitles($(".followMeBar"));
-  
-  newStickies.load();
-  
-  $(window).on("scroll", function() {
-    newStickies.scroll();
-  });
+        else {
+          $('html,body').animate({
+              scrollTop: $(link).offset().top}, 'slow');
+        }
+    });
 
-  $('a[href="#Associates"]').click(function(){
-   $("#Associates").css("padding-top", "200px");
-   });
-
-  $('a[href="#Projects"]').click(function(){
-   $("#Projects").css("padding-top", "200px");
-   });
+    $('a i').click(function() {
+      link = this.parentElement.getAttribute('id');
+      $('html,body').animate({
+          scrollTop: $(link).offset().top}, 'slow');
+    })
 });
