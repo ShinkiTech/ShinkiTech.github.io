@@ -8,6 +8,10 @@ body{
 	z-index: -1;
 }
 
+::-webkit-scrollbar {
+display: none;
+}
+
 .navbar {
 	top: 0px;
 	left: 0px;
@@ -18,7 +22,6 @@ body{
 	width: 100%;
 	z-index: 1;
 }
-
 
 h2 {
 	color: white;
@@ -107,6 +110,19 @@ h1 {
 	color: black;
 }
 
+.associates {
+	color: black;
+}
+
+.associates h1 {
+	color: black;
+}
+
+.section-associates {
+	height: 100vh;
+	text-align: center;
+	padding-top: 100px;
+}
 
 .arrow {
 	position: absolute;
@@ -122,3 +138,15 @@ h1 {
 .material-icons.md-24 { font-size: 24px; }
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-100 { font-size: 100px; }
+
+img {
+	text-align: center;
+	width: 600px;
+	margin: auto;
+	border-radius: 25px;
+
+}
+
+.associates h2 {
+	color: black;
+}
