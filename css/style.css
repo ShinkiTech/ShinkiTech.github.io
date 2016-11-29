@@ -1,0 +1,177 @@
+
+
+body{
+	background: #e3f2fd;
+	font-family: 'Noto Sans', sans-serif;
+	overflow-x: hidden;
+	color: white;
+	z-index: -1;
+}
+
+::-webkit-scrollbar {
+display: none;
+}
+
+.navbar {
+	top: 0px;
+	left: 0px;
+	margin-top: 0;
+	background-color: #0d47a1;
+	opacity: .9;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+h2 {
+	color: white;
+}
+
+ul
+{
+    list-style-type: none;
+		text-align: right;
+
+}
+
+ul li{
+  display: inline-block;;
+}
+
+a:link {
+    text-decoration: none;
+   	color: white;
+}
+a {
+	color: white;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+button :visited {
+    background: none;
+}
+
+strong {
+	color: #ff80ab;
+}
+
+h1 {
+	color: white;
+}
+
+
+.title {
+	min-width: 400px;
+	color: white;
+	margin-top: 0px;
+	padding-top: 10px;
+	padding-left: 20px;
+	opacity: 1;
+}
+
+.nav-links {
+	margin-top: 0px;
+	padding-top: .5em;
+	padding-right: 10px;
+	text-align: right;
+	height: 100%;
+}
+
+#nav_links_shrink {
+	padding-top: .5em;
+	padding-right: 10px;
+	text-align: right;
+	height: 100%;
+}
+
+.section {
+	height: 100vh;
+	text-align: center;
+	padding-top: 300px;
+
+}
+
+.section-1 {
+	background: url(../images/background.jpg);
+	color: white;
+	z-index: -1;
+}
+
+.section-2 {
+	background: #1565c0;
+	color: black;
+	position: relative;
+	z-index: 0;
+
+}
+
+.section-3 {
+	color: black;
+	position: relative;*/
+	z-index: -1;
+
+}
+.section-3 h1 {
+	color: black;
+}
+
+.associates {
+	color: black;
+}
+
+.associates h1 {
+	color: black;
+}
+
+.section-associates {
+	height: 100vh;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.arrow {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding-left: calc(50% - 50px);
+	padding-right: calc(50% - 50px);
+	padding-bottom: 20px;
+	z-index: 1;
+}
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-100 { font-size: 100px; }
+
+img {
+	width: 100%;
+	margin: auto;
+	border-radius: 25px;
+}
+
+.image {
+	margin-left: auto;
+	margin-right: auto;
+   position: relative;
+   width: 60%; /* for IE 6 */
+}
+
+span {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+}
+
+.associates h2 {
+	color: black;
+}
+
+#nav_links_expanded {
+
+}

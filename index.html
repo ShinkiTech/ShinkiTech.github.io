@@ -8,24 +8,33 @@
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
   	<!-- Compiled and minified JavaScript -->
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link href="hamburgers/dist/hamburgers.css" rel="stylesheet"> -->
     <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-    <script src="index.js" type="text/javascript"></script>
+    <script src="js/index.js" type="text/javascript"></script>
 
 </head>
 <body>
+</div>
 	<header>
 		<div class="navbar row">
-			<section class="col s6">
+			<section class="col l5 m8 s10">
 				<h3 class="title">Shinki Technology</h3>
 			</section>
-			<section class="col s6">
+			<section id="nav_links_expanded" class="col l7 m4">
 				<ul>
 					<li><a href="javascript:;" id="#section-1"><h5 class="nav-links"><i class="material-icons">work</i>Purpose</h5></a></li>
 					<li><a href="javascript:;" id="#section-2"><h5 class="nav-links"><i class="material-icons">work</i> What We Do</h5></a></li>
 					<li><a href="javascript:;" id="#section-3"><h5 class="nav-links"><i class="material-icons">folder</i> Projects</h5></a></li>
 					<li><a href="associates.html"><h5 class="nav-links"><i class="material-icons md-24">people</i> Meet the Team</h5></a></li>
 				</ul>
+			</section>
+			<section id="nav_links_shrink" hidden="hidden" class="icon col l7 m4 s2">
+				<button class="hamburger hamburger--vortex" type="button">
+				  <span class="hamburger-box">
+				    <span class="hamburger-inner"></span>
+				  </span>
+				</button>
 			</section>
 		</div>
 	</header>
