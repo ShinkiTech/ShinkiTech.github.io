@@ -65,7 +65,6 @@ h1 {
 
 
 .title {
-	min-width: 400px;
 	color: white;
 	margin-top: 0px;
 	padding-top: 10px;
@@ -78,25 +77,17 @@ h1 {
 	padding-top: .5em;
 	padding-right: 10px;
 	text-align: right;
-	height: 100%;
-}
-
-#nav_links_shrink {
-	padding-top: .5em;
-	padding-right: 10px;
-	text-align: right;
-	height: 100%;
 }
 
 .section {
 	height: 100vh;
 	text-align: center;
-	padding-top: 15%;
+	padding-top: 300px;
 
 }
 
 .section-1 {
-	background: url(../images/background.jpg);
+	background: url(images/background.jpg);
 	color: white;
 	z-index: -1;
 }
@@ -111,7 +102,7 @@ h1 {
 
 .section-3 {
 	color: black;
-	position: relative;*/
+	position: relative;
 	z-index: -1;
 
 }
@@ -149,29 +140,13 @@ h1 {
 .material-icons.md-100 { font-size: 100px; }
 
 img {
-	width: 100%;
+	text-align: center;
+	width: 600px;
 	margin: auto;
 	border-radius: 25px;
-}
 
-.image {
-	margin-left: auto;
-	margin-right: auto;
-   position: relative;
-   width: 60%; /* for IE 6 */
-}
-
-span {
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
 }
 
 .associates h2 {
 	color: black;
-}
-
-#nav_links_expanded {
-
 }
